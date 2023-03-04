@@ -54,6 +54,23 @@ Where indicated, hourly data (then interpolated) from the nearest airport weathe
 This repository is for Appliances Energy Prediction
 
 ## Environment Setup
+Step 1: Create Environment
+```
+conda create --name applianceenv python=3.9 -y
+```
+
+Step 2: Activate Environment
+```
+conda activate applianceenv
+```
+
+Step 3. Install required packages
+````
+pip install torch==1.13.1+cpu torchvision==0.14.1+cpu -f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+pip install autogluon streamlit jupyter
+
+```
 
 
 ## Code Structure
